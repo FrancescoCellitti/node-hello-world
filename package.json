@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env --watch index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/FrancescoCellitti/node-hello-world/issues"
   },
-  "homepage": "https://github.com/FrancescoCellitti/node-hello-world#readme"
+  "homepage": "https://github.com/FrancescoCellitti/node-hello-world#readme",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0"
+  }
 }
